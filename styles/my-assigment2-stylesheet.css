@@ -1,0 +1,54 @@
+  /*16px == 1rem*/
+    html {font-size: 16px;}
+    img {
+      display: block;
+      margin: auto;
+      width: 10%;
+	}
+    h2 {
+      color:green;
+      text-align;center;
+    }
+    .assigment {
+      background-color:blue;
+      text-align:right;
+    }
+    /*document selector*/
+    .assigment p {
+      width: 50%;
+    }
+    .assigment-title {
+      text-align:center;
+    }
+    .assigment-title:hover{
+      color:red;
+    }
+    .assigment-title::first-letter{
+      font-size:4rem;
+    }
+    .navigation{
+      border: 2px solid powderblue;
+      padding: 5px;
+      margin: 10px;
+      text-align: center;
+    }
+    .list{
+      display: inline;
+      list-style-type: none;
+      margin: 0;
+      padding: 1rem;
+      overflow: hidden;
+    }
+    .list:hover{
+      background-color: #111111;
+    }
+    #copyright{
+      font-style: italic;
+    }
+    [class]
+    {
+      color:orange;
+    }
+    .highlight{
+      background-color: salmon;
+    }
