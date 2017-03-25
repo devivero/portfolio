@@ -1,0 +1,33 @@
+
+footer {
+  border-bottom: 0.5rem dashed #333;
+  height: 40vh;
+  margin: 0 auto;
+  position: relative;
+  width: 90vw;
+
+}
+
+.example {
+  position: absolute;
+  bottom: 1%;
+  left: 10%;
+
+  /* Here's the Magic! */
+  transition: all 1s ease 0s;/*all or color*/
+              /*, border-radius 3s ease 1s;*/
+}
+
+/* INTRO TO TRANSITIONS */
+.example:active {
+
+  /* SIZE CHANGES*/
+/*  height: 25vmin; width: 25vmin;*/
+
+  /* POSITION */
+  left: 70%;
+
+   /*TRANSFORMATIONS */
+  transform: rotate(360deg);
+  /*transform: rotate3d(1, 1, 1, 360deg);*/
+}
