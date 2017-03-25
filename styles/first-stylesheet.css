@@ -12,8 +12,13 @@
     .about-me-essay{
       font-family: 'Fascinate Inline', cursive;
       font-size: 2rem;
-      text-align: center;
       color: blue;
+    }
+    p {
+      text-align: center;
+    }
+    p:nth-child(odd) {
+    background: red;
     }
     .assigment {
       background-color:blue;
