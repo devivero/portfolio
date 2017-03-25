@@ -4,10 +4,16 @@
       display: block;
       margin: auto;
       width: 10%;
-	}
+	   }
     h2 {
       color:green;
       text-align:center;
+    }
+    .about-me-essay{
+      font-family: 'Fascinate Inline', cursive;
+      font-size: 2rem;
+      text-align: center;
+      color: blue;
     }
     .assigment {
       background-color:blue;
@@ -45,10 +51,10 @@
     #copyright{
       font-style: italic;
     }
-    [class]
+    /*[class]
     {
       color:orange;
-    }
+    }*/
     .highlight{
       background-color: salmon;
     }
